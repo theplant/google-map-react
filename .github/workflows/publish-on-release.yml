@@ -1,6 +1,7 @@
 name: "Publish @theplant/google-map-react on Release"
 
 on:
+  push:
   release:
     types: [published]
 
